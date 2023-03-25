@@ -7,8 +7,8 @@
  -->
 |model|可行|f1|acc|备注|
 |:-:|:-:|:-:|:-:|:-:|
-|TATE_paper			    | |52.52|77.08|论文给定代码（TF）|
-|KL + MSEloss(base)     |×|37.73|54.68|共用FF（以下都是）|
+|TATE_paper			    | |52.52|77.08|论文给定代码（TF）196服务器|
+|KL + MSEloss(base)     |×|37.73|54.68|共用FF（以下都是）106服务器|
 |base + pre_LN			|√|41.29|59.89|640iter|
 |base + pre_LN + ff_LN  |×|37.44|55.20|-|
 |base + pre_LN + out_LN |×|35.88|54.16|-|
@@ -30,9 +30,9 @@
 |+操作之后变换维度		|-|48.95|67.70|-|
 |transformer_encoder	|×|44.04|64.06|-|
 |修改交互模块				|×|37.37|54.68|放在一开始|
-|||||-|
+|只用交互模块				|√|55.31|73.95|174服务器|
 |||||-|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODc2NjY0N119
+eyJoaXN0b3J5IjpbOTg4NTU1OTI5LC01Nzg3NjY2NDddfQ==
 -->
