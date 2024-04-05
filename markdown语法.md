@@ -64,6 +64,8 @@ ___
 
 \! 感叹号
 
+- [ ] 复选框
+
 # 8. 引用
 >还记得一句教诲吗
 > >一个人的命运啊，当然要靠自我奋斗，但是也要考虑到历史的进程。
@@ -95,5 +97,5 @@ $\begin{pmatrix}1 & 2 \\ 3 & 4\\ \end{pmatrix}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTAwMjc3Nl19
+eyJoaXN0b3J5IjpbLTIwMjEyOTE4ODUsLTI0NTAwMjc3Nl19
 -->
